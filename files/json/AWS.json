@@ -1,0 +1,27 @@
+[
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "short_description": "Prepare for the AWS Certified Solutions Architect - Associate exam covering fundamental AWS architecture concepts.",
+      "long_description": "This comprehensive course covers the fundamental concepts of AWS architecture, including EC2, S3, VPC, IAM, and more. It prepares you thoroughly for the AWS Certified Solutions Architect - Associate exam, equipping you with the skills needed to design scalable, highly available, and cost-efficient systems on AWS.",
+      "price": "$199",
+      "duration": "4 weeks",
+      "img": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png"
+    },
+    {
+      "name": "AWS Certified Developer - Associate",
+      "short_description": "Learn to develop and deploy applications on AWS platform to pass the AWS Certified Developer - Associate exam.",
+      "long_description": "This course dives into developing and deploying applications on the AWS platform. You'll explore AWS SDKs, DynamoDB, Lambda, API Gateway, and more. It's designed to prepare you thoroughly for the AWS Certified Developer - Associate exam, giving you the expertise needed to build and maintain scalable and secure applications on AWS.",
+      "price": "$149",
+      "duration": "3 weeks",
+      "img": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Developer-Associate_badge.5c083fa855fe82c1cf2d0c8b883c265ec72a17c0.png"
+    },
+    {
+      "name": "AWS Certified SysOps Administrator - Associate",
+      "short_description": "Acquire skills to operate, manage, and troubleshoot systems on AWS platform for AWS Certified SysOps Administrator - Associate exam.",
+      "long_description": "This course focuses on operating, managing, and troubleshooting systems on the AWS platform. Covering topics such as EC2 management, RDS, CloudFormation, and more, it prepares you thoroughly for the AWS Certified SysOps Administrator - Associate exam. By the end, you'll be adept at handling the day-to-day operations of AWS infrastructure with efficiency and confidence.",
+      "price": "$179",
+      "duration": "5 weeks",
+      "img": "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-SysOps-Administrator-Associate_badge.c3586b02748654fb588633314dd66a1d6841893b.png"
+    }
+  ]
+  
