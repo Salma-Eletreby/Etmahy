@@ -1,6 +1,6 @@
 function goToPage(x){
   console.log("clicked");
-  window.location.href = "https://salma-eletreby.github.io/Etmahy/Courses.html?course="+x
+  window.location.href = "Course.html?course="+x
 }
 
 fetch("https://salma-eletreby.github.io/Etmahy/files/json/AWS.json")
