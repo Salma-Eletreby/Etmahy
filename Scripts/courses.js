@@ -1,4 +1,4 @@
-fetch("/files/json/AWS.json")
+fetch("Etmahy/files/json/AWS.json")
 .then((response) => response.json())
 .then((data) => {
   console.log(data);
@@ -31,7 +31,7 @@ fetch("/files/json/AWS.json")
   console.error("Error:", error);
 });
 
-fetch("/files/json/DB.json")
+fetch("Etmahy/files/json/DB.json")
 .then((response) => response.json())
 .then((data) => {
   console.log(data);
@@ -64,7 +64,7 @@ fetch("/files/json/DB.json")
   console.error("Error:", error);
 });
 
-fetch("/files/json/coding.json")
+fetch("Etmahy/files/json/coding.json")
 .then((response) => response.json())
 .then((data) => {
   console.log(data);
@@ -97,7 +97,7 @@ fetch("/files/json/coding.json")
   console.error("Error:", error);
 });
 
-fetch("/files/json/python.json")
+fetch("Etmahy/files/json/python.json")
 .then((response) => response.json())
 .then((data) => {
   console.log(data);
