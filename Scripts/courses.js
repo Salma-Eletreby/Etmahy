@@ -1,3 +1,8 @@
+function goToPage(x){
+  console.log("clicked");
+  window.location.href = "https://salma-eletreby.github.io/Etmahy/Courses.html?course="+x
+}
+
 fetch("https://salma-eletreby.github.io/Etmahy/files/json/AWS.json")
 .then((response) => response.json())
 .then((data) => {
@@ -5,7 +10,7 @@ fetch("https://salma-eletreby.github.io/Etmahy/files/json/AWS.json")
   data.forEach(d => {
     var cardHTML = `
     <div class="card">
-    <div class="card-img">
+    <div class="card-img" onclick="goToPage('${d.id}')">
     <img src="${d.img}" alt="">
     </div>
     <div class="card-info">
@@ -38,7 +43,7 @@ fetch("https://salma-eletreby.github.io/Etmahy/files/json/DB.json")
   data.forEach(d => {
     var cardHTML = `
     <div class="card">
-    <div class="card-img">
+    <div class="card-img" onclick="goToPage('${d.id}')">
     <img src="${d.img}" alt="">
     </div>
     <div class="card-info">
@@ -71,7 +76,7 @@ fetch("https://salma-eletreby.github.io/Etmahy/files/json/coding.json")
   data.forEach(d => {
     var cardHTML = `
     <div class="card">
-    <div class="card-img">
+    <div class="card-img" onclick="goToPage('${d.id}')">
     <img src="${d.img}" alt="">
     </div>
     <div class="card-info">
@@ -104,7 +109,7 @@ fetch("https://salma-eletreby.github.io/Etmahy/files/json/python.json")
   data.forEach(d => {
     var cardHTML = `
     <div class="card">
-    <div class="card-img">
+    <div class="card-img" onclick="goToPage('${d.id}')">
     <img src="${d.img}" alt="">
     </div>
     <div class="card-info">
